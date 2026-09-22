@@ -1,0 +1,97 @@
+/* =========================
+   TEST SERIES DASHBOARD
+========================= */
+
+.test-series {
+  min-height: 100vh;
+  padding: 50px 70px;
+  background: #f4f6f9;
+}
+
+.series-header {
+  max-width: 1100px;
+  margin: 0 auto 35px;
+}
+
+.series-header h1 {
+  margin: 0;
+  color: #172033;
+  font-size: 34px;
+  font-weight: 800;
+}
+
+.series-header p {
+  margin-top: 8px;
+  color: #64748b;
+  font-size: 16px;
+}
+
+.test-list {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.test-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+
+  padding: 28px 30px;
+
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+
+  box-shadow: 0 5px 18px rgba(15, 23, 42, 0.06);
+}
+
+.test-number {
+  color: #2563eb;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+}
+
+.test-card h2 {
+  margin: 8px 0 16px;
+
+  color: #172033;
+  font-size: 20px;
+}
+
+.test-details {
+  display: flex;
+  gap: 22px;
+
+  color: #64748b;
+  font-size: 14px;
+}
+
+.start-test-btn {
+  min-width: 140px;
+
+  padding: 12px 22px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #2563eb;
+  color: #ffffff;
+
+  font-size: 14px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.start-test-btn:hover {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+}
